@@ -13,5 +13,12 @@ Penelitian ini menggabungkan model Long Short-Term Memory (LSTM) dengan teknik t
 
 ---
 
-## 📁 Struktur Repositori
+## ⚙️ Tools & Teknologi
+
+- Python 3.x
+- TensorFlow / Keras
+- PyWavelets
+- NumPy, Pandas, Scikit-learn
+- Matplotlib, Seaborn
+- Jupyter Notebook
 
