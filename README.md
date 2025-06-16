@@ -37,7 +37,7 @@ Jumlah epoch mengindikasikan berapa kali seluruh dataset digunakan untuk melatih
 Menentukan jumlah neuron pada lapisan tersembunyi LSTM. Nilai yang lebih tinggi berpotensi menangkap pola yang lebih kompleks, namun juga meningkatkan risiko overfitting.
 
 - Wavelet type (Haar dan Db4)
-  Menentukan jenis wavelet transformator yang digunakan untuk melakukan denoising pada data time series.
+Menentukan jenis wavelet transformator yang digunakan untuk melakukan denoising pada data time series.
 
 Eksperimen dilakukan dengan kombinasi dari ketiga hyperparameter tersebut untuk mengevaluasi performa model berdasarkan metrik seperti MSE (Mean Squared Error) MAE (Mean Absolute Error) dan RMSE (Root Mean Squared Error).
 
