@@ -1,2 +1,17 @@
-# dwt-lstm-stock-price-prediction
-Stock price prediction using LSTM and Discrete Wavelet Transform (DWT) preprocessing. Developed as part of a final undergraduate thesis by Renald Kharisma Tjandra at Institut Teknologi Harapan Bangsa.
+# 📊 Prediksi Harga Saham dengan LSTM dan Discrete Wavelet Transform (DWT)
+
+Repositori ini merupakan dokumentasi dan implementasi dari skripsi sarjana berjudul:  
+**“Penerapan LSTM dalam Prediksi Harga Saham Menggunakan Preprocessing Discrete Wavelet Transform”**  
+oleh **Renald Kharisma Tjandra**,  
+Institut Teknologi Harapan Bangsa, 2024.
+
+---
+
+## 🧠 Deskripsi Singkat
+
+Penelitian ini menggabungkan model Long Short-Term Memory (LSTM) dengan teknik transformasi sinyal **Discrete Wavelet Transform (DWT)** untuk meningkatkan akurasi dalam prediksi harga saham. DWT digunakan untuk melakukan dekomposisi data time-series sehingga dapat mengurangi noise dan menangkap pola frekuensi yang relevan sebelum diproses oleh LSTM.
+
+---
+
+## 📁 Struktur Repositori
+
