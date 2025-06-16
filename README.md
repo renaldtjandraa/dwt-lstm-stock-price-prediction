@@ -28,16 +28,20 @@ Penelitian ini menggabungkan model Long Short-Term Memory (LSTM) dengan teknik t
 Dalam proses pelatihan model LSTM, dilakukan eksperimen dengan beberapa kombinasi nilai hyperparameter untuk mendapatkan performa model terbaik. Adapun hyperparameter yang digunakan adalah sebagai berikut:
 
 - Batch Size: [16, 32]
-Ukuran batch menentukan jumlah sampel data yang diproses sebelum model melakukan update terhadap bobot. Digunakan dua nilai berbeda untuk mengamati pengaruh ukuran batch terhadap konvergensi model.
+  
+  Ukuran batch menentukan jumlah sampel data yang diproses sebelum model melakukan update terhadap bobot. Digunakan dua nilai berbeda untuk mengamati pengaruh ukuran batch terhadap konvergensi model.
 
 - Epoch: [50, 100]
-Jumlah epoch mengindikasikan berapa kali seluruh dataset digunakan untuk melatih model. Nilai 50 dan 100 digunakan untuk melihat apakah model mendapatkan peningkatan performa dengan pelatihan yang lebih panjang.
+
+  Jumlah epoch mengindikasikan berapa kali seluruh dataset digunakan untuk melatih model. Nilai 50 dan 100 digunakan untuk melihat apakah model mendapatkan peningkatan performa dengan pelatihan yang lebih panjang.
 
 - Jumlah Neuron (hidden units): [20, 50]
-Menentukan jumlah neuron pada lapisan tersembunyi LSTM. Nilai yang lebih tinggi berpotensi menangkap pola yang lebih kompleks, namun juga meningkatkan risiko overfitting.
+  
+  Menentukan jumlah neuron pada lapisan tersembunyi LSTM. Nilai yang lebih tinggi berpotensi menangkap pola yang lebih kompleks, namun juga meningkatkan risiko overfitting.
 
 - Wavelet type (Haar dan Db4)
-Menentukan jenis wavelet transformator yang digunakan untuk melakukan denoising pada data time series.
+  
+  Menentukan jenis wavelet transformator yang digunakan untuk melakukan denoising pada data time series.
 
 Eksperimen dilakukan dengan kombinasi dari ketiga hyperparameter tersebut untuk mengevaluasi performa model berdasarkan metrik seperti MSE (Mean Squared Error) MAE (Mean Absolute Error) dan RMSE (Root Mean Squared Error).
 
